@@ -3,4 +3,4 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox
 
 const { registerRoute } = workbox.routing;
 
-registerRoute(/.+/, new NetworkFirst({ cacheName: 'tmpCache' }))
+//registerRoute(/.+/, new NetworkFirst({ cacheName: 'tmpCache' }))

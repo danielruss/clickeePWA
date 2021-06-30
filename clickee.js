@@ -9,6 +9,13 @@ b1_clickee = async function (event) {
     return x1
 }
 
+
+b2_clickee = async function (event) {
+    let x1 = 3 + 5
+    console.table(x1)
+    return x1
+}
+
 window.addEventListener("load", (event) => {
     document.getElementById("button1").addEventListener("click", b1_clickee)
     document.getElementById("button2").addEventListener("click", buttonClick)
